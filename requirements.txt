@@ -1,0 +1,4 @@
+db-sqlite3==0.0.1
+fastapi==0.115.12
+sqlmodel==0.0.24
+uvicorn==0.34.2
