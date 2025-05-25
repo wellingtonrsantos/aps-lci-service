@@ -1,0 +1,242 @@
+[
+  {
+    "name": "Fogão a Carvão",
+    "description": "Equipamento tradicional que utiliza carvão vegetal como fonte de energia.",
+    "flows": [
+      {
+        "flow_name": "Eletricidade (hidrelétrica)",
+        "amount": 0.042012,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 250000,
+        "category": "F"
+      },
+      {
+        "flow_name": "Cavacos de madeira (pós-consumo)",
+        "amount": 0.095889,
+        "unit": "ton",
+        "flow_direction": "Input",
+        "uev": 879000000,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Aquecedor Solar",
+    "description": "Sistema que aquece água utilizando painéis solares térmicos.",
+    "flows": [
+      {
+        "flow_name": "Aço",
+        "amount": 50,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 1.2e9,
+        "category": "F"
+      },
+      {
+        "flow_name": "Vidro",
+        "amount": 20,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 5e8,
+        "category": "N"
+      },
+      {
+        "flow_name": "Luz solar",
+        "amount": 1000000,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 1000,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Bicicleta Elétrica",
+    "description": "Meio de transporte sustentável movido por motor elétrico e pedal.",
+    "flows": [
+      {
+        "flow_name": "Alumínio",
+        "amount": 12,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 7e8,
+        "category": "F"
+      },
+      {
+        "flow_name": "Bateria (Lítio)",
+        "amount": 8,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 2e9,
+        "category": "N"
+      },
+      {
+        "flow_name": "Eletricidade (rede elétrica)",
+        "amount": 120,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 3e5,
+        "category": "F"
+      },
+      {
+        "flow_name": "Luz solar",
+        "amount": 500000,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 1000,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Biodigestor",
+    "description": "Equipamento que transforma resíduos orgânicos em biogás e biofertilizante.",
+    "flows": [
+      {
+        "flow_name": "Esterco bovino",
+        "amount": 1000,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 5e4,
+        "category": "R"
+      },
+      {
+        "flow_name": "Concreto (tanque)",
+        "amount": 200,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 8e8,
+        "category": "N"
+      },
+      {
+        "flow_name": "Eletricidade (bomba)",
+        "amount": 50,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 3e5,
+        "category": "F"
+      }
+    ]
+  },
+  {
+    "name": "Turbina Eólica",
+    "description": "Dispositivo que converte energia cinética do vento em eletricidade.",
+    "flows": [
+      {
+        "flow_name": "Aço",
+        "amount": 1500,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 1.1e9,
+        "category": "F"
+      },
+      {
+        "flow_name": "Concreto (fundação)",
+        "amount": 2000,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 7e8,
+        "category": "N"
+      },
+      {
+        "flow_name": "Energia cinética do vento",
+        "amount": 2000000,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 900,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Geladeira Solar",
+    "description": "Refrigerador que opera com energia solar, ideal para áreas remotas.",
+    "flows": [
+      {
+        "flow_name": "Painel Fotovoltaico",
+        "amount": 2,
+        "unit": "unid",
+        "flow_direction": "Input",
+        "uev": 6e9,
+        "category": "F"
+      },
+      {
+        "flow_name": "Refrigerante (gás R600a)",
+        "amount": 0.2,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 9e8,
+        "category": "N"
+      },
+      {
+        "flow_name": "Energia solar incidente",
+        "amount": 300000,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 900,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Trator Agrícola",
+    "description": "Máquina motorizada usada na agricultura para preparo do solo e colheita.",
+    "flows": [
+      {
+        "flow_name": "Diesel (combustão)",
+        "amount": 100,
+        "unit": "L",
+        "flow_direction": "Input",
+        "uev": 7e12,
+        "category": "F"
+      },
+      {
+        "flow_name": "Pneus de borracha",
+        "amount": 80,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 1.5e9,
+        "category": "N"
+      },
+      {
+        "flow_name": "Energia solar indireta (produção da borracha)",
+        "amount": 50000,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 1000,
+        "category": "R"
+      }
+    ]
+  },
+  {
+    "name": "Casa Sustentável",
+    "description": "Construção que utiliza materiais e energia de forma eficiente e ecológica.",
+    "flows": [
+      {
+        "flow_name": "Painéis de madeira",
+        "amount": 300,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 5e8,
+        "category": "R"
+      },
+      {
+        "flow_name": "Concreto leve",
+        "amount": 500,
+        "unit": "kg",
+        "flow_direction": "Input",
+        "uev": 6e8,
+        "category": "N"
+      },
+      {
+        "flow_name": "Eletricidade (montagem)",
+        "amount": 200,
+        "unit": "MJ",
+        "flow_direction": "Input",
+        "uev": 3e5,
+        "category": "F"
+      }
+    ]
+  }
+]
